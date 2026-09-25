@@ -1,0 +1,44 @@
+/* *{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: violet;
+  padding: 2rem;
+  text-align: center;
+}
+.header h1{
+  text-transform: uppercase;
+}
+main{
+  padding: 2rem;
+}
+.main .hero h1{
+  color: green;
+  font-weight: bold;
+  margin: 10px;
+}
+.main .content li{
+  line-height: 2;
+  font-size: 17px;
+}
+.main .content p:nth-child(2){
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px;
+}
+.footer{
+  padding: 2rem;
+  background-color: violet;
+  text-align: center;
+}
+.footer p{
+  font-size: 20px;
+} */
+
+
+
+img{
+  width: 200px;
+}

@@ -1,0 +1,120 @@
+/* Reset some default spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  color: white;
+  padding: 15px 30px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #38bdf8;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #0ea5e9;
+}
+
+/* Container for counters */
+.counter-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+/* Individual counter card */
+.counter-card {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Score text */
+.counter-card h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  color: #1e293b;
+}
+
+/* Buttons */
+.counter-card button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Different button colors */
+.counter-card button:nth-child(3) {
+  background-color: #ef4444; /* -1 */
+}
+
+.counter-card button:nth-child(4) {
+  background-color: #22c55e; /* +1 */
+}
+
+.counter-card button:nth-child(5) {
+  background-color: #3b82f6; /* +3 */
+}
+
+.counter-card button:nth-child(6) {
+  background-color: #6b7280; /* Reset */
+}
+/* ===== DARK MODE FULL SUPPORT ===== */
+
+.darkMode {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  min-height: 100vh;
+}
+
+/* Header in dark mode */
+.darkMode .header {
+  background-color: #020617;
+  border-bottom: 1px solid #334155;
+}
+
+/* Counter cards in dark mode */
+.darkMode .counter-card {
+  background-color: #1e293b;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Score text */
+.darkMode .counter-card h2 {
+  color: #e2e8f0;
+}
+
+/* Button adjustments */
+.darkMode .header button {
+  background-color: #1e293b;
+  color: white;
+}
+
+.darkMode .counter-card button:nth-child(6) {
+  background-color: #475569; /* better gray for dark */
+}

@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(37, 72, 86);
+}
+.container{
+  width: 450px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 5px black;
+  margin-top: 200px;
+  border-radius: 30px;
+  background-color: rgba(194, 194, 38, 0.993);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+  font-size: 22px;
+  padding: 2px;
+  font-weight: 1000;
+}
+
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.detailes{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.detailes div{
+  margin: 10px;
+}
+.detailes .following p{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+
+.btns{
+  padding: 10px;
+  margin: 10px;
+}
+.btns button{
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 1.5px solid white;
+  font-size: 15px;
+  background: linear-gradient(to right, rgba(1, 1, 71, 0.86), rgb(135, 135, 163), rgba(194, 194, 38, 0.993));
+  color: white;
+}
+
+
+
+.container p:nth-child(4){
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+}

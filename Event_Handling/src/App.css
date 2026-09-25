@@ -1,0 +1,77 @@
+/* Container Styling */
+.main{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #aa56b486;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label and Input Styling */
+label {
+  display: block;
+  margin: 15px 0 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #6c5ce7;
+}
+
+/* Button Base Styles */
+button {
+  margin: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.1s, opacity 0.2s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Fruit Button Colors */
+.apple { background-color: #ff7675; }
+.banana { background-color: #fab1a0; color: #444; }
+.cherry { background-color: #d63031; }
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Submit Button Styling */
+.submit {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #6c5ce7;
+  font-size: 1.1rem;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #636e72;
+}

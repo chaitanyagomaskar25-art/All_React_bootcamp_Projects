@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(15deg,lightgreen, green, lightgreen);
+}
+.container{
+  margin-top: 200px;
+  box-shadow: 0 0 20px 10px rgb(57, 56, 56);
+  padding: 30px;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  border-radius: 20px;
+}
+.active{
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 2px 10px;
+  width: fit-content;
+  height: 20px;
+  background-color: transparent;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+
+}
+.img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.academy{
+  width: fit-content;
+  height: 25px;
+  padding: 5px;
+  border-radius: 30px;
+  border: 1px solid lightgreen;
+  color: green;
+  background-color: rgb(21, 20, 20);
+  font-size: 17px;
+}
+h1{
+  font-weight: 1000;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+.para{
+  font-size: 20px;
+  color: gray;
+  margin: 15px 10px;
+  margin-top: 0;
+}
+.classes{
+  border: none;
+  background-color: rgb(50, 49, 49);
+  padding: 20px 15px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+
+.topOfClasses{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+  padding: 10px;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 10px;
+  height: fit-content;
+  padding: 10px;
+}
+
+.circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.progressbar{
+  border: 1px solid gray;
+  width: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(55, 53, 53);
+  height: 10px;
+}
+.highlighed{
+  background-color: lightgreen;
+  width: 80%;
+  height: 100%;
+  
+}
+button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}

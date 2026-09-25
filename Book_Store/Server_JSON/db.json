@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "name": "The Great Gatsby",
+      "overview": "A critique of the American Dream during the Roaring Twenties, focusing on the mysterious millionaire Jay Gatsby.",
+      "writer": "F. Scott Fitzgerald",
+      "written_date": "1925-04-10",
+      "is_favorite": true
+    },
+    {
+      "id": "2",
+      "name": "To Kill a Mockingbird",
+      "overview": "A childhood narrative exploring racial injustice and moral growth in the American Deep South.",
+      "writer": "Harper Lee",
+      "written_date": "1960-07-11",
+      "is_favorite": false
+    },
+    {
+      "id": "3",
+      "name": "1984",
+      "overview": "A dystopian look at a totalitarian regime dominated by Big Brother, surveillance, and thought control.",
+      "writer": "George Orwell",
+      "written_date": "1949-06-08",
+      "is_favorite": false
+    },
+    {
+      "id": "4",
+      "name": "Pride and Prejudice",
+      "overview": "A romantic comedy of manners detailing the turbulent relationship between Elizabeth Bennet and Fitzwilliam Darcy.",
+      "writer": "Jane Austen",
+      "written_date": "1813-01-28",
+      "is_favorite": false
+    },
+    {
+      "id": "5",
+      "name": "The Hobbit",
+      "overview": "The fantasy journey of Bilbo Baggins as he helps a group of dwarfs reclaim their treasure from a dragon.",
+      "writer": "J.R.R. Tolkien",
+      "written_date": "1937-09-21",
+      "is_favorite": false
+    },
+    {
+      "id": "6",
+      "name": "The Catcher in the Rye",
+      "overview": "A weekend in the life of a cynical teenager named Holden Caulfield navigating loneliness and alienation in New York.",
+      "writer": "J.D. Salinger",
+      "written_date": "1951-07-16",
+      "is_favorite": false
+    },
+    {
+      "id": "7",
+      "name": "One Hundred Years of Solitude",
+      "overview": "The multi-generational story of the Buendía family and the rise and fall of their mythical town, Macondo.",
+      "writer": "Gabriel García Márquez",
+      "written_date": "1967-05-30",
+      "is_favorite": false
+    },
+    {
+      "id": "8",
+      "name": "Brave New World",
+      "overview": "An engineered utopian society where citizens are genetically modified and conditioned into strict social castes.",
+      "writer": "Aldous Huxley",
+      "written_date": "1932-01-01",
+      "is_favorite": false
+    },
+    {
+      "id": "9",
+      "name": "The Alchemist",
+      "overview": "An Andalusian shepherd boy travels to Egypt in search of worldly treasures, finding spiritual wisdom along the way.",
+      "writer": "Paulo Coelho",
+      "written_date": "1988-01-01",
+      "is_favorite": true
+    },
+    {
+      "id": "10",
+      "name": "Frankenstein",
+      "overview": "A scientist accidentally creates a sentient, grotesque monster while attempting to unlock the secret of life.",
+      "writer": "Mary Shelley",
+      "written_date": "1818-01-01",
+      "is_favorite": true
+    }
+  ]
+}

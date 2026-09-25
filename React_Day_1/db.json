@@ -1,0 +1,66 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self Help",
+      "price": 499,
+      "publishedYear": 2018,
+      "rating": 4.8,
+      "available": true,
+      "coverImage": "https://example.com/atomic-habits.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "price": 350,
+      "publishedYear": 1988,
+      "rating": 4.6,
+      "available": true,
+      "coverImage": "https://example.com/alchemist.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "price": 799,
+      "publishedYear": 2008,
+      "rating": 4.9,
+      "available": false,
+      "coverImage": "https://example.com/clean-code.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "genre": "Finance",
+      "price": 420,
+      "publishedYear": 1997,
+      "rating": 4.5,
+      "available": true,
+      "coverImage": "https://example.com/rich-dad.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "price": 599,
+      "publishedYear": 1997,
+      "rating": 4.9,
+      "available": true,
+      "coverImage": "https://example.com/harry-potter.jpg"
+    },
+    {
+      "title": "dddf",
+      "author": "fggggggggggg",
+      "price": "34222222222222222222",
+      "id": "v99NbjZZRxI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
