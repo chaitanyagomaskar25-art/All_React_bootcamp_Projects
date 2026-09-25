@@ -1,0 +1,143 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Getting Started with React",
+      "author": "Alice",
+      "description": "A beginner's guide to React.",
+      "likes": 133
+    },
+    {
+      "id": "2",
+      "title": "Advanced TypeScript",
+      "author": "Bob",
+      "description": "Deep dive into TypeScript features.",
+      "likes": 91
+    },
+    {
+      "id": "3",
+      "title": "Understanding Node.js",
+      "author": "Charlie",
+      "description": "How Node.js works under the hood.",
+      "likes": 200
+    },
+    {
+      "id": "4",
+      "title": "CSS Grid vs Flexbox",
+      "author": "Diana",
+      "description": "When to use CSS Grid and Flexbox.",
+      "likes": 150
+    },
+    {
+      "id": "5",
+      "title": "State Management in Vue",
+      "author": "Eve",
+      "description": "Exploring Vuex and Pinia.",
+      "likes": 95
+    },
+    {
+      "id": "6",
+      "title": "Introduction to Python",
+      "author": "Frank",
+      "description": "Python basics for beginners.",
+      "likes": 300
+    },
+    {
+      "id": "7",
+      "title": "Data Structures in Java",
+      "author": "Grace",
+      "description": "Common data structures explained.",
+      "likes": 210
+    },
+    {
+      "id": "8",
+      "title": "Machine Learning 101",
+      "author": "Henry",
+      "description": "A quick intro to ML concepts.",
+      "likes": 400
+    },
+    {
+      "id": "9",
+      "title": "Docker for Developers",
+      "author": "Isla",
+      "description": "Containerizing your applications.",
+      "likes": 175
+    },
+    {
+      "id": "10",
+      "title": "Kubernetes Architecture",
+      "author": "Jack",
+      "description": "Understanding K8s components.",
+      "likes": 140
+    },
+    {
+      "id": "11",
+      "title": "Responsive Web Design",
+      "author": "Karen",
+      "description": "Building mobile-first websites.",
+      "likes": 220
+    },
+    {
+      "id": "12",
+      "title": "GraphQL vs REST",
+      "author": "Leo",
+      "description": "Comparing API architectures.",
+      "likes": 310
+    },
+    {
+      "id": "13",
+      "title": "Serverless Functions",
+      "author": "Mia",
+      "description": "Deploying code without servers.",
+      "likes": 180
+    },
+    {
+      "id": "14",
+      "title": "React Native Basics",
+      "author": "Nathan",
+      "description": "Building cross-platform mobile apps.",
+      "likes": 250
+    },
+    {
+      "id": "15",
+      "title": "Angular Directives",
+      "author": "Olivia",
+      "description": "Mastering directives in Angular.",
+      "likes": 130
+    },
+    {
+      "id": "16",
+      "title": "Cybersecurity Fundamentals",
+      "author": "Paul",
+      "description": "Keeping your apps secure.",
+      "likes": 350
+    },
+    {
+      "id": "17",
+      "title": "SQL Performance Tuning",
+      "author": "Quinn",
+      "description": "Optimizing your database queries.",
+      "likes": 194
+    },
+    {
+      "id": "18",
+      "title": "Web Accessibility (a11y)",
+      "author": "Rachel",
+      "description": "Making web usable for everyone.",
+      "likes": 282
+    },
+    {
+      "id": "19",
+      "title": "Rust for Systems Programming",
+      "author": "Sam",
+      "description": "Why Rust is gaining popularity.",
+      "likes": 420
+    },
+    {
+      "id": "20",
+      "title": "DevOps Culture",
+      "author": "Tom",
+      "description": "Bridging the gap between dev and ops.",
+      "likes": 160
+    }
+  ]}
